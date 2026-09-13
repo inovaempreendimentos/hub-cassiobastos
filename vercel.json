@@ -3,6 +3,10 @@
   "outputDirectory": ".",
   "rewrites": [
     {
+      "source": "/kayros/",
+      "destination": "https://kayros-app.vercel.app/kayros"
+    },
+    {
       "source": "/kayros",
       "destination": "https://kayros-app.vercel.app/kayros"
     },
