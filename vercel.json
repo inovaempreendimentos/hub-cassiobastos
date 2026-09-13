@@ -1,0 +1,14 @@
+{
+  "buildCommand": "echo ok",
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/kayros",
+      "destination": "https://kayros-app.vercel.app/kayros"
+    },
+    {
+      "source": "/kayros/:path*",
+      "destination": "https://kayros-app.vercel.app/kayros/:path*"
+    }
+  ]
+}
