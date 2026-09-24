@@ -24,11 +24,11 @@
     },
     {
       "source": "/ecossistema",
-      "destination": "https://eco-hq-kayros3.vercel.app/ecossistema"
+      "destination": "https://eco-dia-kayros3.vercel.app/ecossistema"
     },
     {
       "source": "/ecossistema/:path*",
-      "destination": "https://eco-hq-kayros3.vercel.app/ecossistema/:path*"
+      "destination": "https://eco-dia-kayros3.vercel.app/ecossistema/:path*"
     }
   ]
 }
