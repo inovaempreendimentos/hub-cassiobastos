@@ -16,6 +16,14 @@
     {
       "source": "/kayros/:path*",
       "destination": "https://kayros-app.vercel.app/kayros/:path*"
+    },
+    {
+      "source": "/ecossistema",
+      "destination": "https://ecossistema-app-kayros3.vercel.app/ecossistema"
+    },
+    {
+      "source": "/ecossistema/:path*",
+      "destination": "https://ecossistema-app-kayros3.vercel.app/ecossistema/:path*"
     }
   ]
 }
