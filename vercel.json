@@ -6,6 +6,11 @@
       "source": "/kayros/",
       "destination": "/kayros",
       "permanent": false
+    },
+    {
+      "source": "/entrar",
+      "destination": "/ecossistema/entrar",
+      "permanent": false
     }
   ],
   "rewrites": [
@@ -19,11 +24,11 @@
     },
     {
       "source": "/ecossistema",
-      "destination": "https://ecossistema-app-kayros3.vercel.app/ecossistema"
+      "destination": "https://eco-hq-kayros3.vercel.app/ecossistema"
     },
     {
       "source": "/ecossistema/:path*",
-      "destination": "https://ecossistema-app-kayros3.vercel.app/ecossistema/:path*"
+      "destination": "https://eco-hq-kayros3.vercel.app/ecossistema/:path*"
     }
   ]
 }
